@@ -1,4 +1,4 @@
-# priver.rep
+# priver.party site
 
 # From MEOWENGINE.NL
 
