@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+nav{
+  color: white;
+}
+ul {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d400ff;
+  border-radius: 5px;
+  box-shadow: 0px 9px #490070;
+}
+li {
+  float: right;
+  color: #ffffff;
+  
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d400ff;
+}
+html,body{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,p{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  opacity: 80%
+}
+.main-L{
+  padding: 120px;
+  text-align: center;
+  
+}
+.logo { 
+  margin: 10px
+  width: 500px;
+  height: 180px;
+}
+
+.color-overlay{
+  background-color:#000000;
+
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#background-video {
+  opacity:   150%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#rainbow{
+		animation: rainbow 2.5s linear;
+		animation-iteration-count: infinite;
+}
+#text-bottom-left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+#text-bottom-right{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+@media (max-width: 750px) {
+    #background-video { display:inherit }
+    body {
+      background: url("assets/background/static.gif") no-repeat;
+      background-size: cover;
+    }
+}
