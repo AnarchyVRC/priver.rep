@@ -17,6 +17,9 @@ html{
 	text-decoration: none;
 	color: white;
 }
+.author{
+	font-size: 2em;
+}
 #title{
 	color:rgb(255, 255, 255);
 	font-size: 3em;
@@ -38,7 +41,7 @@ a.hidden:hover{
 	color:#ca00fd;
 }
 #logo{
-	width: 50%;
+	width: 30%;
 }
 #rainbow{
 		animation: rainbow 2.5s linear;
