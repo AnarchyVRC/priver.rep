@@ -75,7 +75,7 @@ a.hidden:hover{
 
 a:hover{
 	background:linear-gradient(-45, #ff0080,#d60000,#fd0054);
-	animation: fade 5s;
+	animation: fade infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
