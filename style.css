@@ -40,6 +40,9 @@ a.hidden:active{
 a.hidden:hover{
 	color:#ca00fd;
 }
+a:hover{
+	color:#ca00fd;
+}
 #logo{
 	width: 30%;
 }
