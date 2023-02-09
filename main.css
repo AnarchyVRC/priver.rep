@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html{
-  background-color: #181818;
+  background-color: #2d0730;
   color: white;
 }
 a{
@@ -21,7 +21,18 @@ a:hover{
 	font-style: normal;
 	font-family: Roboto, sans-serif;
 }
+#title{
+	color:blueviolet;
+	font-size: 3em;
+}
+a.hidden {
+    text-decoration: none;
+    color: inherit;
+}
 
+a.hidden:active {
+    color: inherit;
+}
 #rainbow{
 		animation: rainbow 2.5s linear;
 		animation-iteration-count: infinite;
