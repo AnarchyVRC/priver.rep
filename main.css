@@ -5,9 +5,6 @@ html{
   color: white;
 }
 
-a:hover{
-	color: purple;
-}
 .center{
 	position: fixed;
     top: 50%;
@@ -25,23 +22,23 @@ a:hover{
 	font-size: 3em;
 }
 #title:hover{
-	color:rgb(253, 0, 106);
+	color:#ca00fd;
 }
 #links:hover{
-	color:rgb(253, 0, 106);
+	color:#ca00fd;
 }
 a.hidden {
     text-decoration: none;
 	color:rgb(255, 255, 255);
 }
 a.hidden:active{
-	color:rgb(253, 0, 106);
+	color:#ca00fd;
 }
 a.hidden:hover{
-	color:rgb(253, 0, 106);
+	color:#ca00fd;
 }
 #logo{
-	width: 50px;
+	width: 50%;
 }
 #rainbow{
 		animation: rainbow 2.5s linear;
