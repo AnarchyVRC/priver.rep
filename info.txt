@@ -5,16 +5,33 @@
  |___|_| |_|_|  \___/|_| |_| |_|\__,_|\__|_|\___/|_| |_|
 
 Developers:
- > Terkoshi (Website + Graphics + *client*)
+ > Terkoshi (Front End + Website + GFXs + Menu)
  > Wxlfie (Loader + Client + Backend)
- > Plasma (Helper + GUI Styles)
+ > Plasma (Helper + GUI Styles + Loader)
  
  
  Q & A 
-  > What is this for>
+  > What is this for
    (VRChat): But we are going to move on to csgo or fortnite)
+
   > Is this private
     yes if you wanna join you have to go through a cleansing process.
+
   > Is Terkoshi in love with jordan mickailster
     OFC Nigga!!!
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  646 tehe >:3
