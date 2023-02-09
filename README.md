@@ -1,7 +1,1 @@
-# priver.party site
- 
- 
- # wxlfie x terkoshi = 646
- 
- 3 plsma
- iscool
+# priver.party site I'm sleeply asf.
