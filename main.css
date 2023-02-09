@@ -28,6 +28,9 @@ a:hover{
 #title:hover{
 	color:white;
 }
+#links:hover{
+	color:blueviolet;
+}
 a.hidden {
     text-decoration: none;
     color: inherit;
