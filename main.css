@@ -22,11 +22,11 @@ a:hover{
 }
 #title{
 	text-decoration: none;
-	color:blueviolet;
+	color:rgb(255, 255, 255);
 	font-size: 3em;
 }
 #title:hover{
-	color:white;
+	color:rgb(66, 3, 3);
 }
 #links:hover{
 	color:blueviolet;
