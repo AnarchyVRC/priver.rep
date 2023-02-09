@@ -5,7 +5,9 @@
 	--text: white;
 }
 html,body{
-	background-color: var(--bg-color);
+	background: linear-gradient(117deg, #000000, #645c65, #b7b7b7, #363636, #000000, #c000c1, #5d1c5d);
+    background-size: 1400% 1400%;
+    animation: bg 7s linear infinite;
   	color: var(--text);
   	font-family: Roboto, sans-serif;
 }
@@ -47,7 +49,7 @@ a.author:hover{
   line-height: 1.5rem;
   padding: .75rem 1.2rem;
   text-align: center;
-  text-decoration: none #6B7280 solid;
+  text-decoration: none #8c009e solid;
   text-decoration-thickness: auto;
   transition-duration: .2s;
   transition-property: background-color,border-color,color,fill,stroke;
@@ -58,7 +60,7 @@ a.author:hover{
   width: auto;
 }
 .button-40:hover {
-  background-color: #374151;
+  background-color: #48005e;
 }
 
 .button-40:focus {
@@ -119,11 +121,18 @@ a:hover{
 	background-size: 800% 800%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: retest 13s linear infinite;
+	animation: texthover 13s linear infinite;
 }
 
 
-@keyframes retest {
+
+
+@keyframes BG {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+@keyframes texthover {
 0%{background-position:0% 49%}
 50%{background-position:100% 52%}
 100%{background-position:0% 49%}
