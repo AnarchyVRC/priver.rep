@@ -33,11 +33,7 @@ a:hover{
 }
 a.hidden {
     text-decoration: none;
-    color: inherit;
-}
-
-a.hidden:active {
-    color: inherit;
+    
 }
 #rainbow{
 		animation: rainbow 2.5s linear;
