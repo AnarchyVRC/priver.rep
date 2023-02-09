@@ -3,6 +3,7 @@
 html,body{
   background-color: #131313;
   color: white;
+  font-family: Roboto, sans-serif;
 }
 a.author{
 	text-decoration: none;
@@ -18,7 +19,7 @@ a.author:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-	font-family: Roboto, sans-serif;
+	
 }
 .center-btn{
 	position: fixed;
@@ -26,7 +27,7 @@ a.author:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-	font-family: Roboto, sans-serif;
+	
 }
 #links{
 	text-decoration: none;
