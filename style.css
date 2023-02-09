@@ -10,8 +10,7 @@ a.author{
 	color:rgb(255, 255, 255);
 }
 a.author:hover{
-	outline-width: 5px;
-	outline-color: rgb(255, 255, 255) ;
+	stroke: aquamarine 1px 1px;
 }
 .center{
 	position: fixed;
