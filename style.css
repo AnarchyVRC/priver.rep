@@ -75,10 +75,7 @@ a.hidden:hover{
 }
 
 a:hover{
-	background:linear-gradient(90deg, #ff0080,#00bdd6,#fd0054,#00fd3f);
-	animation: colorhover 10s linear infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color:var(--linkshover);
 }
 @keyframes colorhover{
 	0%{
