@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
-	--bg-color: rgb(20,20,20)
+	--bg-color: rgb(20,20,20);
+	--linkshover: rgb(202, 0, 253);
 }
 html,body{
   background-color: var(--bg-color);
@@ -43,23 +44,23 @@ a.author:hover{
 	font-size: 3em;
 }
 #title:hover{
-	color:#ca00fd;
+	color:var(--linkshover)
 }
 #links:hover{
-	color:#ca00fd;
+	color:var(--linkshover);
 }
 a.hidden {
     text-decoration: none;
 	color:rgb(255, 255, 255);
 }
 a.hidden:active{
-	color:#ca00fd;
+	color:var(--linkshover)
 }
 a.hidden:hover{
-	color:#ca00fd;
+	color:var(--linkshover)
 }
 a:hover{
-	color:#ca00fd;
+	color:var(--linkshover)
 }
 #logo{
 	width: 24%;
