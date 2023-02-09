@@ -20,6 +20,10 @@ html{
 		animation: rainbow 2.5s linear;
 		animation-iteration-count: infinite;
 }
+#rainbow2:hover{
+	animation: rainbow 2.5s linear;
+	animation-iteration-count: infinite;
+}
 
 @keyframes rainbow{
 		100%,0%{
@@ -58,4 +62,5 @@ html{
 		91%{
 			color: rgb(255,0,127);
 		}
+		
 }
