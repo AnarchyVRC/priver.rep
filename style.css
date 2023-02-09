@@ -5,7 +5,8 @@
 	--text: white;
 }
 html,body{
-  background-color: var(--bg-color);
+	background:linear-gradient(90deg, #ff0080,#00bdd6,#fd0054,#00fd3f);
+	animation: colorhover 10s linear infinite;
   color: var(--text);
   font-family: Roboto, sans-serif;
 }
