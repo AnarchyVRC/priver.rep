@@ -37,6 +37,9 @@ a.hidden {
 a.hidden:active{
 	color:rgb(253, 0, 106);
 }
+a.hidden:hover{
+	color:rgb(253, 0, 106);
+}
 #logo{
 	width: 12px;
 }
