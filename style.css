@@ -60,9 +60,7 @@ a.hidden:active{
 a.hidden:hover{
 	color:var(--linkshover)
 }
-a:hover{
-	color:var(--linkshover)
-}
+
 #logo{
 	width: 24%;
 }
@@ -75,6 +73,23 @@ a:hover{
 	animation-iteration-count: infinite;
 }
 
+a:hover{
+	background:linear-gradient(-45, #ff0080,#d60000,#fd0054);
+	animation: fade 5s;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@keyframes fade{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
 @keyframes rainbow{
 		100%,0%{
 			color: rgb(255,0,0);
