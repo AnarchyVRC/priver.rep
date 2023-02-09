@@ -36,7 +36,7 @@ a.author:hover{
 
 }
 .button-40{
-  background-color: #8c009e;
+  background-color: #5e0969;
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
@@ -60,7 +60,8 @@ a.author:hover{
   width: auto;
 }
 .button-40:hover {
-  background-color: #48005e;
+  background-color: #360146;
+  color: #b217d9;
 }
 
 .button-40:focus {
