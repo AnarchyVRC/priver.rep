@@ -21,7 +21,6 @@ a:hover{
 	color: white;
 }
 #title{
-	text-decoration: none;
 	color:rgb(255, 255, 255);
 	font-size: 3em;
 }
@@ -33,7 +32,13 @@ a:hover{
 }
 a.hidden {
     text-decoration: none;
-    
+	color:rgb(255, 255, 255);
+}
+a.hidden:active{
+	color:rgb(253, 0, 106);
+}
+#logo{
+	width: 50%;
 }
 #rainbow{
 		animation: rainbow 2.5s linear;
