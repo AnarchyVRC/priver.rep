@@ -4,7 +4,15 @@ html{
   background-color: #131313;
   color: white;
 }
+a.author{
+	text-decoration: none;
 
+
+}
+a.author:hover{
+	outline-width: 5px;
+	outline-color: rgb(212, 0, 255) ;
+}
 .center{
 	position: fixed;
     top: 50%;
