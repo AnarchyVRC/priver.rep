@@ -26,10 +26,10 @@ a:hover{
 	font-size: 3em;
 }
 #title:hover{
-	color:rgb(66, 3, 3);
+	color:rgb(247, 247, 247);
 }
 #links:hover{
-	color:blueviolet;
+	color:rgb(253, 0, 106);
 }
 a.hidden {
     text-decoration: none;
