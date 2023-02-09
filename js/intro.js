@@ -13,10 +13,11 @@ function play()
       priverA.setGain(1.0);
       priverA.start()
     var introscreen = document.getElementById('sequencer')
-    var formula = document.getElementById('dolam')
+    var links = document.getElementById('links')
     var preintro = document.getElementById('enter')
-    formula.style.display = 'block';
+    links.style.display = 'block'
     introscreen.style.display = 'block';
+    enter.remove();
     
 }
     
