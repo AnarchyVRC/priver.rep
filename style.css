@@ -30,8 +30,6 @@ a.author:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
-/* CSS */
   background-color: #111827;
   border: 1px solid transparent;
   border-radius: .75rem;
