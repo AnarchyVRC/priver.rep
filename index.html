@@ -12,23 +12,39 @@
   <title>PARTY TIME!</title>
   <link rel="apple-touch-icon" sizes="180x180" href=
   "apple-touch-icon.png">
-  <audio src="/assets/ost/bg.mp3" autoplay loop></audio>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script>var introscreen = document.getElementById('sequencer')
+var formula = document.getElementById('dolam')
+
+introscreen.style.display = 'none';
+formula.style.display = 'none';
+
+function play()
+{
+    var introscreen = document.getElementById('sequencer')
+    var formula = document.getElementById('dolam')
+    var preintro = document.getElementById('enter')
+    formula.style.display = 'block'
+    introscreen.style.display = 'block';}</script>
   <link rel="apple-touch-icon" sizes="180x180" href="asssets/sprites/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="asssets/sprites/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="asssets/sprites/favicon-16x16.png">
   <!-- Better -->
 </head>
 <body>
-  <style>.non-cusor{ cursor: none;}</style>
-<div class="center">
-  <h1 class="non-cusor" id="rainbow">Revamping Site [2023]</h1>
-  <h3><a href="https://github.com/terkoshi">Terkoshi</a> + <a href="https://github.com/Wxlfie646">Wxlfie</a></h3>
-  <a href="guidelines.txt" target="_blank">guidelines</a>
-  <a href="https://priver.party/discordians" target="_blank">discordians</a>
-  <a href="info.txt" target="_blank">info</a>
+  <input id="enter" type="button" value="Entrance" onclick="play()">
+<div id="sequencer" style="display: none;">
+  <div class="center">
+    <h1 class="non-cusor" id="rainbow">Revamping Site [2023]</h1>
+    <h3><a href="https://github.com/terkoshi">Terkoshi</a> + <a href="https://github.com/Wxlfie646">Wxlfie</a></h3>
+    <a href="guidelines.txt" target="_blank">guidelines</a>
+    <a href="https://priver.party/discordians" target="_blank">discordians</a>
+    <a href="info.txt" target="_blank">info</a>
+    <a id="dolam" href="#forums" target="_blank">forums</a>
+  </div>
 </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 </body>
 </html>
