@@ -5,10 +5,12 @@
 	--text: white;
 }
 html,body{
-	background:linear-gradient(90deg, #ff0080,#00bdd6,#fd0054,#00fd3f);
-	animation: colorhover 10s linear infinite;
-  color: var(--text);
-  font-family: Roboto, sans-serif;
+	background: linear-gradient(298deg, #d9177c, #ff0000, #8700e3, #ff0079);
+	background-size: 800% 800%;
+
+	animation: retest 13s ease infinite;
+  	color: var(--text);
+  	font-family: Roboto, sans-serif;
 }
 a.author{
 	text-decoration: none;
@@ -77,13 +79,12 @@ a.hidden:hover{
 a:hover{
 	color:var(--linkshover);
 }
-@keyframes colorhover{
-	0%{
-		background-position: 0%;
-	}
-	100%{
-		background-position: 400%;
-	}
+
+
+@keyframes retest {
+0%{background-position:0% 49%}
+50%{background-position:100% 52%}
+100%{background-position:0% 49%}
 }
 @keyframes rainbow{
 		100%,0%{
