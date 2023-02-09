@@ -22,16 +22,16 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
 var introscreen = document.getElementById('sequencer')
-var formula = document.getElementById('dolam')
+var links = document.getElementById('dolam')
 introscreen.style.display = 'none';
-formula.style.display = 'none';
+links.style.display = 'none';
 
 function play()
 {
     var introscreen = document.getElementById('sequencer')
-    var formula = document.getElementById('dolam')
+    var links = document.getElementById('links')
     var preintro = document.getElementById('enter')
-    formula.style.display = 'block'
+    links.style.display = 'block'
     introscreen.style.display = 'block';
     enter.remove();
 }</script>
@@ -43,10 +43,10 @@ function play()
   <div class="center">
     <div id="title" class="hidden"><a href="/">priver.party</a></div>
     <h3><a href="https://github.com/terkoshi">Terkoshi</a> + <a href="https://github.com/Wxlfie646">Wxlfie</a></h3>
-    <a href="guidelines.txt" target="_blank">guidelines</a>
-    <a href="https://priver.party/discordians" target="_blank">discordians</a>
-    <a href="info.txt" target="_blank">info</a>
-    <a id="dolam" href="#forums" target="_blank">forums</a>
+    <a id="links" href="guidelines.txt" target="_blank">guidelines</a>
+    <a id="links"href="https://priver.party/discordians" target="_blank">discordians</a>
+    <a id="links" href="info.txt" target="_blank">info</a>
+    <a id="links" href="#forums" target="_blank">forums</a>
   </div>
 </div>
 
