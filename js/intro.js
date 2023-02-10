@@ -22,7 +22,7 @@ function play()
         min: 10,
         max: 40
      })
-     priverA.addRythm('pulsinator', 'tilt', 150 40,{
+     priverA.addRythm('pulsinator', 'tilt', 150, 40 ,{
         min: 20,
         max: 25
      })
