@@ -18,7 +18,7 @@ function play()
     //audio + animation
     priverA.setMusic('/assets/ost/bg.mp3')
     priverA.setGain(1.2);
-    priverA.addRythm('pulsinator', 'pulse', 100, 500, {
+    priverA.addRythm('pulsinator', 'pulse', 100, 0, {
         min: 1,
         max: 0.30
      })
