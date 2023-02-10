@@ -18,7 +18,13 @@ function play()
     //audio + animation
     priverA.setMusic('/assets/ost/bg.mp3')
     priverA.setGain(1.0);
+    priverA.addRythm('rythm-high', 'shake', 500, 100, { direction:'left', min: 20, max: 300 })
+    
     priverA.start()
+
+   
+
+
 }
     
 
