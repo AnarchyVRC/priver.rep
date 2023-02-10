@@ -20,7 +20,7 @@ function play()
     priverA.setGain(1.0);
     priverA.addRythm('pulsinator', 'pulse', 275, 355, {
         min: 1,
-        max: 4
+        max: 20
      })
      priverA.addRythm('pulsinator', 'tilt', 150 40,{
         min: 20,
