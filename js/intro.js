@@ -22,7 +22,7 @@ function play()
         min: 1,
         max: 0.30
      })
-     priverA.addRythm('pulsinator2', 'color', 0, 10, {
+     priverA.addRythm('pulsinator2', 'color', 100, 355, {
         from: [20,20,20],
         to:[121,5,179]
      })
