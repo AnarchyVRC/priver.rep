@@ -18,7 +18,7 @@ function play()
     //audio + animation
     priverA.setMusic('/assets/ost/bg.mp3')
     priverA.setGain(1.0);
-    kemonoZ.addRythm('pulsinator', 'pulse', 275, 355, {
+    priverA.addRythm('pulsinator', 'pulse', 275, 355, {
         min: 0.25,
         max: 0.5
      })
