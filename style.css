@@ -6,8 +6,8 @@
 }
 html,body{
 	background: linear-gradient(117deg, #000000, #645c65, #b7b7b7, #363636, #000000, #c000c1, #5d1c5d);
-    background-size: 1400% 1400%;
-    animation: BG 7s linear infinite;
+    background-size: 1400% 10%;
+    animation: BG 30s linear infinite;
   	color: var(--text);
   	font-family: Roboto, sans-serif;
 }
