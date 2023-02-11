@@ -9,32 +9,33 @@
     <title>Services</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    .colortext:hover, .colortext:hover th{
+        background:linear-gradient(#ff0095, #ff00f2,#e20000);
+        background-size: 800% 800%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: colortext 10s ease infinite;
+    }
+    
+    @keyframes colortext{
+        0%
+        {
+            background-position:96% 0%
+        }
+        50%
+        {
+            background-position:5% 100%
+        }
+        100%{
+            background-position:96% 0%
+        }
+    }
+</style>
 <body>
     
     <button type="submit" onclick="play()">click</button>
-    <style>
-        .colortext:hover, .colortext:hover th{
-            background:linear-gradient(#ff0095, #ff00f2,#e20000);
-            background-size: 800% 800%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: colortext 10s ease infinite;
-        }
-        
-        @keyframes colortext{
-            0%
-            {
-                background-position:96% 0%
-            }
-            50%
-            {
-                background-position:5% 100%
-            }
-            100%{
-                background-position:96% 0%
-            }
-        }
-    </style>
+    
     <div class="center">
        <div class="contents">
         <tbody>
