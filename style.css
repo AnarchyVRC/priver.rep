@@ -17,9 +17,6 @@ a.author{
 	text-decoration: none;
 	color: var(--text);
 }
-a.author:hover{
-	stroke: aquamarine 1px 1px;
-}
 .center{
 	position: fixed;
     top: 50%;
@@ -82,6 +79,13 @@ a.author:hover{
 	text-decoration: none;
 	color: var(--text);
 }
+#links:hover{
+	background: linear-gradient(298deg, #d9177c, #ff0000, #8700e3, #ff0079);
+	background-size: 800% 800%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: texthover 13s linear infinite;
+}
 .author{
 	font-size: 1em;
 
@@ -90,12 +94,8 @@ a.author:hover{
 	color: var(--text);
 	font-size: 3em;
 }
-#title:hover{
-	color:var(--linkshover)
-}
-#links:hover{
-	color:var(--linkshover);
-}
+
+
 a.hidden {
     text-decoration: none;
 	color: var(--text);
@@ -119,12 +119,11 @@ a.hidden:hover{
 	animation-iteration-count: infinite;
 }
 
-a:hover{
-	background: linear-gradient(298deg, #d9177c, #ff0000, #8700e3, #ff0079);
-	background-size: 800% 800%;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: texthover 13s linear infinite;
+.contents table, .contents table th, .contents table td {
+    border: 1px solid rgb(253, 0, 253);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
 }
 
 

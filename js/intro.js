@@ -5,7 +5,6 @@ introscreen.style.display = 'none';
 links.style.display = 'none';
 function play()
 {
-  
     var introscreen = document.getElementById('sequencer')
     var links = document.getElementById('links')
     var preintro = document.getElementById('enter')
@@ -18,14 +17,14 @@ function play()
     //audio + animation
     priverA.setMusic('/assets/ost/bg.mp3')
     priverA.setGain(1.2);
-    priverA.addRythm('pulsinator', 'pulse', 100, 200, {
+    priverA.addRythm('pulsinator', 'pulse', 100, 300, {
         min: 1,
-        max: 0.30
+        max: 0.45
      })
-     priverA.addRythm('pulsinator2', 'color', 100, 355, {
+     priverA.addRythm('pulsinator2', 'color', 22, 1, {
         from: [20,20,20],
         to:[121,5,179]
-     })
+     }) 
     
     
     
@@ -36,7 +35,5 @@ function play()
 
 
 }
-    
 
-    
-    
+
