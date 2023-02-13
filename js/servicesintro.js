@@ -1,4 +1,4 @@
-var TS = new Rythm()
+var ServicesA = new Rythm()
 
 //audio + animation
 TS.setMusic('/assets/ost/bg(old).mp3')
