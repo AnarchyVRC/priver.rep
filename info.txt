@@ -29,4 +29,5 @@ Developers:
  | (__|   / _|| |) | |  | | \__ \
   \___|_|_\___|___/___| |_| |___/
                                  
-1: Typed.js by: https://github.com/mattboldt <3                              
+1: Typed.js by: https://github.com/mattboldt <3 (Visuals)
+2: Rythm.js: by https://github.com/Okazari/ <3 (Audio + Visuals)                          
